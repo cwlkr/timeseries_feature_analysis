@@ -56,7 +56,7 @@ pacman::p_load(data.table, ggplot2, tidyverse, readxl, randomForest, TSexploreR,
     
     #laod dataset
     ## example single ------
-    mnt =  "/run/user/1000/gvfs/afp-volume:host=izbhelsinki,volume=imaging.data", # ubuntu
+    mnt =  "",                                                                 # points to getwd()
     # mnt = 'y:'                                                               # windows
     # experiment = "Coralie/NIH3T3/siPOOLs/20181210_systIII_siPOOLs_plate1_multipulses_II/20181210_075541_575/Merged"
     # experiment = "Coralie/NIH3T3/siPOOLs/20190221_systIII_siPOOLs_plate1_singlePulses/20190221_090712_551/Merged"

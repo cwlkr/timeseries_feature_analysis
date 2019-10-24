@@ -9,6 +9,7 @@ source("load_multiple.R")
 experiments = c("Coralie/NIH3T3/siPOOLs/20190408_systII_siPOOLs_plate1_and_2_singlePulse_changed_order/20190408_150050_815",
                 "Coralie/NIH3T3/siPOOLs/20190311_systII_siPOOLs_plate1_and_2_singlePulse/20190311_102308_731",
                 "Coralie/NIH3T3/siPOOLs/20190401_systII_siPOOLs_plate1_and_2_singlePulse/20190401_155035_686")
+
 # only run once per exp setup. saves whole compination of experiments
 exp.mult = load_multiple(experiments)
 exp.mult.data = exp.mult$data
